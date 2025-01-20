@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.styled-table th {
+    background-color: #f2c94c;
+    color: #000;
+    font-weight: bold;
+}
+
+.styled-table tfoot td {
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.product-image {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
